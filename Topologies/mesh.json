@@ -1,0 +1,59 @@
+{
+    "mesh": [
+        {
+            "macAddress": "00:11:22:33:44:55",
+            "nodeName": "Node 1",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:56",
+                "PortB": "00:11:22:33:44:57",
+                "PortC": "00:11:22:33:44:58"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:56",
+            "nodeName": "Node 2",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:55",
+                "PortB": "00:11:22:33:44:58",
+                "PortC": "00:11:22:33:44:59"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:57",
+            "nodeName": "Node 3",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:55",
+                "PortB": "00:11:22:33:44:59",
+                "PortC": "00:11:22:33:44:5A"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:58",
+            "nodeName": "Node 4",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:55",
+                "PortB": "00:11:22:33:44:56",
+                "PortC": "00:11:22:33:44:59"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:59",
+            "nodeName": "Node 5",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:56",
+                "PortB": "00:11:22:33:44:57",
+                "PortC": "00:11:22:33:44:58"
+            }
+        }
+    ]
+}

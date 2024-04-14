@@ -1,0 +1,163 @@
+{
+    "hybrid": [
+        {
+            "macAddress": "00:11:22:33:44:55",
+            "nodeName": "Node 1 (Ring)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:56",
+                "PortB": "00:11:22:33:44:5A"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:56",
+            "nodeName": "Node 2 (Ring)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:55",
+                "PortB": "00:11:22:33:44:57"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:57",
+            "nodeName": "Node 3 (Ring)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:56",
+                "PortB": "00:11:22:33:44:58"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:58",
+            "nodeName": "Node 4 (Ring)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:57",
+                "PortB": "00:11:22:33:44:59"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:59",
+            "nodeName": "Node 5 (Ring)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:58",
+                "PortB": "00:11:22:33:44:55"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:5A",
+            "nodeName": "Hub (Star)",
+            "nodeType": "Hub",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:5B",
+                "PortB": "00:11:22:33:44:5C",
+                "PortC": "00:11:22:33:44:55"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:5B",
+            "nodeName": "Node 6 (Star)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:5A"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:5C",
+            "nodeName": "Node 7 (Star)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:5A"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:5D",
+            "nodeName": "Node 8 (Bus)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:5E",
+                "PortB": "00:11:22:33:44:5F"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:5E",
+            "nodeName": "Node 9 (Bus)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:5D",
+                "PortB": "00:11:22:33:44:60"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:5F",
+            "nodeName": "Node 10 (Bus)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:5D",
+                "PortB": "00:11:22:33:44:61"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:60",
+            "nodeName": "Node 11 (Bus)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:5E",
+                "PortB": "00:11:22:33:44:5F"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:61",
+            "nodeName": "Node 12 (Bus)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:5F",
+                "PortB": "00:11:22:33:44:5D"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:62",
+            "nodeName": "Node 13 (Bus)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:61",
+                "PortB": "00:11:22:33:44:5D"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:63",
+            "nodeName": "Node 14 (Bus)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:61",
+                "PortB": "00:11:22:33:44:5E"
+            }
+        },
+        {
+            "macAddress": "00:11:22:33:44:64",
+            "nodeName": "Node 15 (Bus)",
+            "nodeType": "Computer",
+            "nodeBuffer": {},
+            "nodePorts": {
+                "PortA": "00:11:22:33:44:61",
+                "PortB": "00:11:22:33:44:5F"
+            }
+        }
+    ]
+}
